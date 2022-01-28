@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body * {
+  font-family: 'MedievalSharp', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

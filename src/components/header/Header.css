@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+.header .title{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 300;
+}
+.header .start_btn button{
+    transition: .2s all ease-in-out;
+    color: gold;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 10px;
+    border-radius: 20px;
+}
+.header .start_btn button:hover{
+    color: #2B1A23;
+    background-color: gold;
+}

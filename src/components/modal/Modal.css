@@ -1,0 +1,18 @@
+.modal .start_btn button{
+    transition: .2s all ease-in-out;
+    color: gold;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 10px;
+    border-radius: 20px;
+}
+.modal .start_btn button:hover{
+    color: #2B1A23;
+    background-color: gold;
+}
+@media only screen and (max-width: 800px) {
+    .modal h1{
+        font-size: 100%;
+    }
+}

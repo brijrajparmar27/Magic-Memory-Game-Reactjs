@@ -1,0 +1,62 @@
+.card {
+  /* background-color: violet; */
+  width: min-content;
+  position: relative;
+}
+
+.card .front_contain {
+  transition: all ease-in 0.2s;
+  transform: rotateY(90deg);
+  position: absolute;
+
+  background-image: url("https://image.freepik.com/free-vector/purple-ornamental-background_1095-117.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #622f4a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  height: 200px;
+  width: 150px;
+  border: 3px solid whitesmoke;
+}
+.card .back {
+  height: 200px;
+  width: 160px;
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+.flipped .front_contain {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+.flipped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+.card .front_contain img {
+  height: 90px;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    height: 100px;
+    width: 80px;
+  }
+  .card .back {
+    height: 100px;
+    width: 80px;
+  }
+  .card .front_contain{
+    height: 100px;
+    width: 80px;
+  }
+  .card .front_contain img {
+    height: 50px;
+  }
+}
